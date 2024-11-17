@@ -146,9 +146,12 @@ tr {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     padding: 0.7rem;
-    border-bottom: 1px solid var(--clr-Light-Grey);
+    
 }
 
+tr:not(:last-child) {
+    border-bottom: 1px solid var(--clr-Light-Grey);
+}
 /* 
 
 responsiveness
